@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "owo-sentinel",
+  "version": "${version}",
+  "name": "oωo-sentinel",
+  "description": "makes u download oωo",
+  "authors": [
+    "glisco"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "owo_sentinel_icon.png",
+  "environment": "*",
+  "provides": [
+    "owo",
+    "owo-lib"
+  ],
+  "languageAdapters": {
+    "maldenhagen": "io.wispforest.owosentinel.Maldenhagen"
+  },
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": ">=1.18"
+  },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/xrwHKktV2d"
+      },
+      "badges": [
+        "library"
+      ]
+    }
+  }
+}
